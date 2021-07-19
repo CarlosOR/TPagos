@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tuya.Pagos.Application.Interfaces\Tuya.Pagos.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\Tuya.Pagos.Application\Tuya.Pagos.Application.csproj" />
+    <ProjectReference Include="..\Tuya.Pagos.Domain.Interfaces\Tuya.Pagos.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Tuya.Pagos.Domain\Tuya.Pagos.Domain.csproj" />
+    <ProjectReference Include="..\Tuya.Pagos.Models\Tuya.Pagos.Models.csproj" />
+    <ProjectReference Include="..\Tuya.Pagos.Persistence.Interfaces\Tuya.Pagos.Persistence.Interfaces.csproj" />
+    <ProjectReference Include="..\Tuya.Pagos.Persistence\Tuya.Pagos.Persistence.csproj" />
+    <ProjectReference Include="..\Tuya.Pagos.Utilities\Tuya.Pagos.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

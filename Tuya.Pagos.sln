@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuya.Pagos", "Tuya.Pagos\Tuya.Pagos.csproj", "{E0B6D2B0-2E94-4C19-B410-5CC68E970652}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{B8EA9B04-AE3D-4666-A657-5131E06F9CB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{5D96F91A-6D1D-42E0-8EEF-907EA36D9C90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{E0EAD71D-F26E-4F5F-9761-C1BF77601FD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Persistence", "4.Persistence", "{246CC10A-A3F9-43D8-AE9B-049F9B8851AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Models", "5.Models", "{4DF7A428-D609-4D36-ACCD-E341F23C3D20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuya.Pagos.Persistence", "Tuya.Pagos.Persistence\Tuya.Pagos.Persistence.csproj", "{0B03D70F-105A-4E97-885E-29BE65EEF91A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuya.Pagos.Models", "Tuya.Pagos.Models\Tuya.Pagos.Models.csproj", "{CC8DCE4E-5C34-406E-904E-F1A30B382A93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuya.Pagos.Domain", "Tuya.Pagos.Domain\Tuya.Pagos.Domain.csproj", "{755BC9E2-62DA-4AA7-A895-DB87CA63EE8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuya.Pagos.Domain.Interfaces", "Tuya.Pagos.Domain.Interfaces\Tuya.Pagos.Domain.Interfaces.csproj", "{2824469E-C228-4AB8-8209-026224D2F86B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.Resolver", "6.Resolver", "{3447E93B-D983-40AD-B0FC-C679F380DEA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuya.Pagos.Application", "Tuya.Pagos.Application\Tuya.Pagos.Application.csproj", "{321D148D-9FA5-4A7D-AD49-16ADE0D3E4F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuya.Pagos.Application.Interfaces", "Tuya.Pagos.Application.Interfaces\Tuya.Pagos.Application.Interfaces.csproj", "{C9B3A264-F3C2-45FC-B16F-B2CA49AC51B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.Transversal", "7.Transversal", "{D55BD9CA-DAC8-497A-A81C-0B70B919A725}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuya.Pagos.Resolver", "Tuya.Pagos.Resolver\Tuya.Pagos.Resolver.csproj", "{1C752E6E-5393-44CE-8EC9-D0D7B4D871EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuya.Pagos.Persistence.Interfaces", "Tuya.Pagos.Persistence.Interfaces\Tuya.Pagos.Persistence.Interfaces.csproj", "{E1272E5D-A018-4DF5-A524-087E8E90A86E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.Test", "8.Test", "{0F9C4AF3-4E08-4D7E-B679-2684A48E40CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuya.Pagos.Test", "Tuya.Pagos.Test\Tuya.Pagos.Test.csproj", "{8AEB72F9-D437-46EF-835D-F0C4A60F6082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuya.Pagos.Utilities", "Tuya.Pagos.Utilities\Tuya.Pagos.Utilities.csproj", "{D5852694-523E-42C4-B644-B3176C3F4822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuya.Pagos.ExceptionsHandling", "Tuya.Pagos.ExceptionsHandling\Tuya.Pagos.ExceptionsHandling.csproj", "{0CCA1197-8BD6-4796-8507-887F61A45003}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0B6D2B0-2E94-4C19-B410-5CC68E970652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B6D2B0-2E94-4C19-B410-5CC68E970652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B6D2B0-2E94-4C19-B410-5CC68E970652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B6D2B0-2E94-4C19-B410-5CC68E970652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B03D70F-105A-4E97-885E-29BE65EEF91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B03D70F-105A-4E97-885E-29BE65EEF91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B03D70F-105A-4E97-885E-29BE65EEF91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B03D70F-105A-4E97-885E-29BE65EEF91A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8DCE4E-5C34-406E-904E-F1A30B382A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8DCE4E-5C34-406E-904E-F1A30B382A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8DCE4E-5C34-406E-904E-F1A30B382A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8DCE4E-5C34-406E-904E-F1A30B382A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755BC9E2-62DA-4AA7-A895-DB87CA63EE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755BC9E2-62DA-4AA7-A895-DB87CA63EE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755BC9E2-62DA-4AA7-A895-DB87CA63EE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755BC9E2-62DA-4AA7-A895-DB87CA63EE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2824469E-C228-4AB8-8209-026224D2F86B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2824469E-C228-4AB8-8209-026224D2F86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2824469E-C228-4AB8-8209-026224D2F86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2824469E-C228-4AB8-8209-026224D2F86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321D148D-9FA5-4A7D-AD49-16ADE0D3E4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321D148D-9FA5-4A7D-AD49-16ADE0D3E4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321D148D-9FA5-4A7D-AD49-16ADE0D3E4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{321D148D-9FA5-4A7D-AD49-16ADE0D3E4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B3A264-F3C2-45FC-B16F-B2CA49AC51B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B3A264-F3C2-45FC-B16F-B2CA49AC51B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B3A264-F3C2-45FC-B16F-B2CA49AC51B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B3A264-F3C2-45FC-B16F-B2CA49AC51B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C752E6E-5393-44CE-8EC9-D0D7B4D871EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C752E6E-5393-44CE-8EC9-D0D7B4D871EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C752E6E-5393-44CE-8EC9-D0D7B4D871EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C752E6E-5393-44CE-8EC9-D0D7B4D871EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1272E5D-A018-4DF5-A524-087E8E90A86E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1272E5D-A018-4DF5-A524-087E8E90A86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1272E5D-A018-4DF5-A524-087E8E90A86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1272E5D-A018-4DF5-A524-087E8E90A86E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AEB72F9-D437-46EF-835D-F0C4A60F6082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AEB72F9-D437-46EF-835D-F0C4A60F6082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AEB72F9-D437-46EF-835D-F0C4A60F6082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AEB72F9-D437-46EF-835D-F0C4A60F6082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5852694-523E-42C4-B644-B3176C3F4822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5852694-523E-42C4-B644-B3176C3F4822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5852694-523E-42C4-B644-B3176C3F4822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5852694-523E-42C4-B644-B3176C3F4822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CCA1197-8BD6-4796-8507-887F61A45003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCA1197-8BD6-4796-8507-887F61A45003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCA1197-8BD6-4796-8507-887F61A45003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCA1197-8BD6-4796-8507-887F61A45003}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0B6D2B0-2E94-4C19-B410-5CC68E970652} = {B8EA9B04-AE3D-4666-A657-5131E06F9CB1}
+		{0B03D70F-105A-4E97-885E-29BE65EEF91A} = {246CC10A-A3F9-43D8-AE9B-049F9B8851AB}
+		{CC8DCE4E-5C34-406E-904E-F1A30B382A93} = {4DF7A428-D609-4D36-ACCD-E341F23C3D20}
+		{755BC9E2-62DA-4AA7-A895-DB87CA63EE8F} = {E0EAD71D-F26E-4F5F-9761-C1BF77601FD2}
+		{2824469E-C228-4AB8-8209-026224D2F86B} = {E0EAD71D-F26E-4F5F-9761-C1BF77601FD2}
+		{321D148D-9FA5-4A7D-AD49-16ADE0D3E4F1} = {5D96F91A-6D1D-42E0-8EEF-907EA36D9C90}
+		{C9B3A264-F3C2-45FC-B16F-B2CA49AC51B7} = {5D96F91A-6D1D-42E0-8EEF-907EA36D9C90}
+		{1C752E6E-5393-44CE-8EC9-D0D7B4D871EF} = {3447E93B-D983-40AD-B0FC-C679F380DEA3}
+		{E1272E5D-A018-4DF5-A524-087E8E90A86E} = {246CC10A-A3F9-43D8-AE9B-049F9B8851AB}
+		{8AEB72F9-D437-46EF-835D-F0C4A60F6082} = {0F9C4AF3-4E08-4D7E-B679-2684A48E40CE}
+		{D5852694-523E-42C4-B644-B3176C3F4822} = {D55BD9CA-DAC8-497A-A81C-0B70B919A725}
+		{0CCA1197-8BD6-4796-8507-887F61A45003} = {D55BD9CA-DAC8-497A-A81C-0B70B919A725}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66E1E2BF-DF74-49A7-9B4F-DE0CEC75E831}
+	EndGlobalSection
+EndGlobal

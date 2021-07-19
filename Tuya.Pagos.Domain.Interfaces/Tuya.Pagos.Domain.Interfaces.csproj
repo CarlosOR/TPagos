@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tuya.Pagos.Models\Tuya.Pagos.Models.csproj" />
+    <ProjectReference Include="..\Tuya.Pagos.Persistence\Tuya.Pagos.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

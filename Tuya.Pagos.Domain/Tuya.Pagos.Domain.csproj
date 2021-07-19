@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tuya.Pagos.Domain.Interfaces\Tuya.Pagos.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Tuya.Pagos.ExceptionsHandling\Tuya.Pagos.ExceptionsHandling.csproj" />
+    <ProjectReference Include="..\Tuya.Pagos.Models\Tuya.Pagos.Models.csproj" />
+    <ProjectReference Include="..\Tuya.Pagos.Persistence.Interfaces\Tuya.Pagos.Persistence.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
